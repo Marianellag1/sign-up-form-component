@@ -39,19 +39,33 @@
             id="first" 
             placeholder="First Name" 
             required>
-            
+            <label for="">
+              <img src="./images/icon-error.svg" alt="">
+            </label>
+            <p class="error">First Name cannot be empty</p>
+
             <input 
             type="text" 
             name="last" 
             id="last" 
             placeholder="Last Name" 
             required>
+            <label for="">
+              <img src="./images/icon-error.svg" alt="">
+            </label>
+            <p class="error">Last Name cannot be empty</p>
+
             <input 
             type="email" 
             name="email" 
             id="email" 
             placeholder="Email Address" 
             required>
+            <p class="example">email@example/com</p>
+            <label for="">
+              <img src="./images/icon-error.svg" alt="">
+            </label>
+            <p class="error">Looks like this is not an email</p>
             
             <input 
             type="password" 
@@ -59,6 +73,10 @@
             id="password" 
             placeholder="Password"
             required>
+            <label for="">
+              <img src="./images/icon-error.svg" alt="">
+            </label>
+            <p class="error">Password cannot be empty</p>
             
             <button 
             type="submit" 
@@ -82,6 +100,7 @@
       Coded by <a href="#">Marianella Gamboa</a>.
     </p>
   </footer>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,6 @@
-// // alert("hello world");//works
+// console.log("hello world");//works
+const submit = document.querySelector(".submit");//button
+const input = document.querySelector("input");//hopefully all input
 
 // // all input
 // let password = document.getElementById("exampleInputPassword1");
