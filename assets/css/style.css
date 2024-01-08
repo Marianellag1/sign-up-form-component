@@ -90,6 +90,10 @@ body {
     padding: 1.5rem;
 }
 
+.wrapper .left form {
+    position: relative;
+}
+
 .wrapper .left input {
     width: 100%;
     padding: 1rem;
@@ -121,11 +125,48 @@ body {
 
 .wrapper .left .error {
     color: var(--red);
+    font-size: small;
+    font-style: italic;
+    float: right;
+    display: none;
 }
 
-/* .wrapper .left .example {
+.wrapper .left .one {
+    position: absolute;
+    display: none;
+    top: 17px;
+    right: 20px;
+}
 
-} */
+.wrapper .left .two {
+    position: absolute;
+    display: none;
+    top: 95px;
+    right: 20px;
+}
+.wrapper .left .three {
+    position: absolute;
+    display: none;
+    top: 172px;
+    right: 20px;
+}
+
+.wrapper .left .four {
+    position: absolute;
+    display: none;
+    top: 250px;
+    right: 20px;
+}
+
+.wrapper .left .example {
+    color: var(--red);
+    font-weight: 600;
+    font-size: small;
+    position: absolute;
+    display: none;
+    top: 172px;
+    left: 20px;
+}
 
 .wrapper .left .terms {
     color: var(--grayish-blue);
